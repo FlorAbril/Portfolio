@@ -17,13 +17,14 @@ const Project = ({title,description,links}) => {
       </p>
       <div className="flex gap-2">
         <Link href={links.github}>
-          <a className="flex gap-1 items-center" target="_blank">
+          <a className="flex gap-1 items-center" target="_blank" rel="noopener">
             <div className="w-4">
               <Image
                 src="/github.svg"
                 width={1}
                 height={1}
                 layout="responsive"
+                alt="github"
               />
             </div>
             <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">
@@ -32,13 +33,14 @@ const Project = ({title,description,links}) => {
           </a>
         </Link>
 				<Link href={links.website}>
-        <a className="flex gap-1 items-center" target="_blank">
+        <a className="flex gap-1 items-center" target="_blank" rel="noopener">
             <div className="w-4">
               <Image
                 src="/globe.svg"
                 width={1}
                 height={1}
                 layout="responsive"
+                alt="website"
               />
             </div>
             <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">

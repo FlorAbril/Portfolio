@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Header = () => {
   return (
@@ -28,7 +27,7 @@ const Header = () => {
           Frontend Developer based in Buenos Aires, AR.
         </h2>
         <div className="flex justify-center gap-3 pt-3 sm:justify-start items-center text-sm sm:text-base md:text-lg">
-          <a href="https://www.linkedin.com/in/florabrilsoto" target={"_blank"}>
+          <a href="https://www.linkedin.com/in/florabrilsoto" target={"_blank"} rel="noopener">
             <div className="flex items-center gap-1 cursor-pointer">
               <div className="w-4 md:w-6">
                 <Image
@@ -36,12 +35,13 @@ const Header = () => {
                     width={1}
                     height={1}
                     layout="responsive"
+                    alt="linkedin"
                 />
               </div>
               <span className="transition duration-500 hover:underline hover:text-dark-blue">LinkeIn</span>
             </div>
           </a>
-          <a href="#" target={"_blank"}>
+          <a href="https://github.com/FlorAbril" target={"_blank"} rel="noopener">
             <div className="flex items-center gap-1 cursor-pointer">
               <div className="w-4 md:w-6">
                 <Image
@@ -49,6 +49,7 @@ const Header = () => {
                   width={1}
                   height={1}
                   layout="responsive"
+                  alt="github"
                 />
               </div>
               <span className="transition duration-500 hover:underline hover:text-dark-blue">Github</span>
