@@ -17,7 +17,7 @@ const Project = ({title,description,links}) => {
       </p>
       <div className="flex gap-2">
         <Link href={links.github}>
-          <a className="flex gap-1 items-center" target="_blank" rel="noopener">
+          <a className="flex gap-1 items-center">
             <div className="w-4">
               <Image
                 src="/github.svg"
@@ -33,7 +33,7 @@ const Project = ({title,description,links}) => {
           </a>
         </Link>
 				<Link href={links.website}>
-        <a className="flex gap-1 items-center" target="_blank" rel="noopener">
+        <a className="flex gap-1 items-center">
             <div className="w-4">
               <Image
                 src="/globe.svg"
