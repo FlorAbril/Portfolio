@@ -38,7 +38,7 @@ const Header = () => {
                     alt="linkedin"
                 />
               </div>
-              <span className="transition duration-500 hover:underline hover:text-dark-blue">LinkeIn</span>
+              <span className="transition duration-500 hover:underline hover:text-dark-blue">LinkedIn</span>
             </div>
           </a>
           <a href="https://github.com/FlorAbril">
