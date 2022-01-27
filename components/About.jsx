@@ -1,8 +1,8 @@
 const About = () => {
   return(
-    <div className="about">
-      <h1>About</h1>
-      <p>
+    <div className="p-4 w-full bg-layered-waves">
+      <h1 className="text-lg text-center mb-4 mt-16 md:text-3xl" id="about">About</h1>
+      <p className="text-sm max-w-lg m-auto backdrop-blur-xs text-justify">
         I'm Florencia, I studied programing at a technical school in Buenos Aires, Argentina. 
         But I learned a lot by myself, like frameworks, libraries, and other tecnologies.
         I'm currently looking for my first job experience.
@@ -14,9 +14,9 @@ const About = () => {
         I'll get back to you as soon as possible.
 
       </p>
-      <div className="flex">
+      <div className="flex w-fit m-auto backdrop-blur-xs pt-2">
         <div>
-          <h2>Hard Skills</h2>
+          <h2 className="font-medium">Hard Skills</h2>
           <ul>
             <li>• HTML</li>
             <li>• CSS</li>
@@ -28,7 +28,7 @@ const About = () => {
           </ul>
         </div>
         <div>
-          <h2>Soft Skills</h2>
+          <h2 className="font-medium">Soft Skills</h2>
           <ul>
           <li>• Commitment</li>
           <li>• Growth mindset</li>
