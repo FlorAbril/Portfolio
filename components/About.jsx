@@ -3,15 +3,15 @@ const About = () => {
     <div className="p-4 w-full bg-layered-waves">
       <h1 className="text-lg text-center mb-4 mt-16 md:text-3xl" id="about">About</h1>
       <p className="text-sm max-w-lg m-auto backdrop-blur-xs text-justify">
-        I'm Florencia, I studied programing at a technical school in Buenos Aires, Argentina. 
+        I&apos;m Florencia, I studied programing at a technical school in Buenos Aires, Argentina. 
         But I learned a lot by myself, like frameworks, libraries, and other tecnologies.
-        I'm currently looking for my first job experience.
-        I'm intrested to work in a team where I can apply what I learned, 
+        I&apos;m currently looking for my first job experience.
+        I&apos;m intrested to work in a team where I can apply what I learned, 
         face new challenges and give my best to grow as a developer and person.
-        I'm colaborative and attentive, I like to hear ideas and give mine to others to reach the best results.
+        I&apos;m colaborative and attentive, I like to hear ideas and give mine to others to reach the best results.
         I know that I will work great in a team that has this values. 
         If you want to contact me, please send me an email, or a message on my social networks. 
-        I'll get back to you as soon as possible.
+        I&apos;ll get back to you as soon as possible.
 
       </p>
       <div className="flex w-fit m-auto backdrop-blur-xs pt-2">
