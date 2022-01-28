@@ -56,6 +56,7 @@ const Header = () => {
             </div>
           </a>
         </div>
+        <h4 className="text-xs text-center sm:text-left sm:text-sm md:text-base ">✉ florenciasoto801@gmail.com</h4>
       </div>
     </div>
   );

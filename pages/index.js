@@ -7,7 +7,7 @@ import Projects from "../components/Projects";
 
 export default function Home() {
   return (
-    <div>
+    <div className="mb-16">
       <Navbar />
       <Header />
       <Projects />

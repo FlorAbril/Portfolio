@@ -5,8 +5,9 @@ const Project = ({title,description,links}) => {
   return (
     <div className="
       flex flex-col gap-3
-      p-4 max-w-lg rounded-md transition ease-in-out duration-700 
-      border-2 border-blue-500/50 
+      w-full
+      p-4 max-w-lg transition ease-in-out duration-700 
+      rounded-md border-2 border-blue-500/50 
       hover:bg-dark-blue/75"
     > 
       <h1 className="text-lg font-medium">

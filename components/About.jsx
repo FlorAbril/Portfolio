@@ -2,19 +2,19 @@ const About = () => {
   return(
     <div className="p-4 w-full bg-layered-waves">
       <h1 className="text-lg text-center mb-4 mt-16 md:text-3xl" id="about">About</h1>
-      <p className="text-sm max-w-lg m-auto backdrop-blur-xs text-justify">
+      <p className="
+        text-sm max-w-lg m-auto backdrop-blur-xs text-center mb-4"
+      >
         I&apos;m Florencia, I studied programing at a technical school in Buenos Aires, Argentina. 
         But I learned a lot by myself, like frameworks, libraries, and other tecnologies.
         I&apos;m currently looking for my first job experience.
         I&apos;m intrested to work in a team where I can apply what I learned, 
-        face new challenges and give my best to grow as a developer and person.
-        I&apos;m colaborative and attentive, I like to hear ideas and give mine to others to reach the best results.
-        I know that I will work great in a team that has this values. 
+        face new challenges and give my best to grow as a developer and person. <br/>
         If you want to contact me, please send me an email, or a message on my social networks. 
-        I&apos;ll get back to you as soon as possible.
-
+        I&apos;ll get back to you as soon as possible. <br/>
+        <span className="italic font-medium">florenciasoto801@gmail.com</span>
       </p>
-      <div className="flex w-fit m-auto backdrop-blur-xs pt-2">
+      <div className="flex w-fit m-auto backdrop-blur-xs pt-2  border-2 border-blue-500/50 rounded-md p-4">
         <div>
           <h2 className="font-medium">Hard Skills</h2>
           <ul>
