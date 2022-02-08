@@ -5,14 +5,15 @@ const About = () => {
       <p className="
         text-sm max-w-lg m-auto backdrop-blur-xs text-center mb-4"
       >
-        I&apos;m Florencia, I studied programing at a technical school in Buenos Aires, Argentina. 
-        But I learned a lot by myself, like frameworks, libraries, and other tecnologies.
-        I&apos;m currently looking for my first job experience.
-        I&apos;m intrested to work in a team where I can apply what I learned, 
+        I&apos;m Florencia, I'm a Trainee Frontend Developer from Buenos Aires, Argentina. <br/>
+        I&apos;m currently looking for my first job experience where I can apply what I learned, 
         face new challenges and give my best to grow as a developer and person. <br/>
         If you want to contact me, please send me an email, or a message on my social networks. 
         I&apos;ll get back to you as soon as possible. <br/>
-        <span className="italic font-medium">florenciasoto801@gmail.com</span>
+        <a href="mailto:florenciasoto801@gmail.com"
+          className="italic font-medium hover:underline">
+           ✉ florenciasoto801@gmail.com
+        </a>
       </p>
       <div className="flex w-fit m-auto backdrop-blur-xs pt-2  border-2 border-blue-500/50 rounded-md p-4">
         <div>
