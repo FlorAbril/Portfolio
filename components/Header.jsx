@@ -56,12 +56,14 @@ const Header = () => {
             </div>
           </a>
         </div>
-        <a href="mailto:florenciasoto801@gmail.com" 
-          className="text-xs text-center sm:text-left sm:text-sm md:text-base 
-            transition duration-300 hover:underline hover:text-blue-500"
-        >
-          ✉ florenciasoto801@gmail.com
-        </a>
+        <div className="text-center sm:text-left">
+          <a href="mailto:florenciasoto801@gmail.com" 
+            className="text-xs sm:text-left sm:text-sm md:text-base 
+              transition duration-300 hover:underline hover:text-blue-500"
+          >
+            ✉ florenciasoto801@gmail.com
+          </a>
+        </div>
       </div>
     </div>
   );
