@@ -8,22 +8,23 @@ const Projects = () => {
 		const response = await axios.get("/api/projects")
 		return response.data
 	}
+
 	useEffect(() => {
 		getProjects().then(setProjects)
 	},[])
-	console.log(projects)
+	
 	return (
 		<div className="flex flex-col items-center gap-3 ml-2 mr-2">
 			<h1 className="text-lg text-center mb-4 md:text-3xl" id="projects">Projects</h1>
-			{projects.map(({id,properties:{Name,WebSite,Github,Desciption}}) => (
+			{projects.map(({id,properties:{Name,WebSite,Github,Description}}) => (
 				<Project
 					key={id}
-					title={Name.title[0]["plain_text"]}
-					description={Desciption["rich_text"][0]["plain_text"]}
+					title={Name?.title[0]?.["plain_text"]}
+					description={Description?.["rich_text"][0]?.["plain_text"]}
 					links={
 						{
-							github: Github.url,
-							website: WebSite.url
+							github: Github?.url,
+							website: WebSite?.url
 						}
 					}
 				/>

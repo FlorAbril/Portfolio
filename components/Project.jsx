@@ -17,38 +17,42 @@ const Project = ({title,description,links}) => {
         {description}
       </p>
       <div className="flex gap-2">
-        <Link href={links.github}>
+        {links.github && (
+          <Link href={links.github}>
+            <a className="flex gap-1 items-center">
+              <div className="w-4">
+                <Image
+                  src="/github.svg"
+                  width={1}
+                  height={1}
+                  layout="responsive"
+                  alt="github"
+                />
+              </div>
+              <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">
+                Repository
+              </span>
+            </a>
+          </Link>
+        )}
+        {links.website && (
+          <Link href={links.website}>
           <a className="flex gap-1 items-center">
-            <div className="w-4">
-              <Image
-                src="/github.svg"
-                width={1}
-                height={1}
-                layout="responsive"
-                alt="github"
-              />
-            </div>
-            <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">
-              Repository
-            </span>
-          </a>
-        </Link>
-				<Link href={links.website}>
-        <a className="flex gap-1 items-center">
-            <div className="w-4">
-              <Image
-                src="/globe.svg"
-                width={1}
-                height={1}
-                layout="responsive"
-                alt="website"
-              />
-            </div>
-            <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">
-              Website
-            </span>
-          </a>
-				</Link>
+              <div className="w-4">
+                <Image
+                  src="/globe.svg"
+                  width={1}
+                  height={1}
+                  layout="responsive"
+                  alt="website"
+                />
+              </div>
+              <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">
+                Website
+              </span>
+            </a>
+          </Link>
+        )}
       </div>
     </div>
   );
