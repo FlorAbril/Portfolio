@@ -5,7 +5,7 @@ const About = () => {
       <p className="
         text-sm max-w-lg m-auto backdrop-blur-xs text-center mb-4"
       >
-        I&apos;m Florencia, I'm a Trainee Frontend Developer from Buenos Aires, Argentina. <br/>
+        I&apos;m Florencia, I&apos;m a Trainee Frontend Developer from Buenos Aires, Argentina. <br/>
         I&apos;m currently looking for my first job experience where I can apply what I learned, 
         face new challenges and give my best to grow as a developer and person. <br/>
         If you want to contact me, please send me an email, or a message on my social networks. 

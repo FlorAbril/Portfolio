@@ -18,7 +18,8 @@ const Project = ({title,description,links,technologies}) => {
       </p>
       <div className="flex flex-wrap gap-y-1 justify-center">
         {technologies?.map(technology => (
-          <span className="inline-block bg-blue-500/70 text-white px-2 py-1 rounded-full mr-2 text-xs">
+          <span key={technology.id}
+            className="inline-block bg-blue-500/70 text-white px-2 py-1 rounded-full mr-2 text-xs">
             {technology.name}
           </span>
         ))}
