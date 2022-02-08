@@ -38,7 +38,7 @@ const Header = () => {
                     alt="linkedin"
                 />
               </div>
-              <span className="transition duration-500 hover:underline hover:text-blue-500">LinkedIn</span>
+              <span className="transition duration-300 hover:underline hover:text-blue-500">LinkedIn</span>
             </div>
           </a>
           <a href="https://github.com/FlorAbril">
@@ -52,11 +52,16 @@ const Header = () => {
                   alt="github"
                 />
               </div>
-              <span className="transition duration-500 hover:underline hover:text-blue-500">Github</span>
+              <span className="transition duration-300 hover:underline hover:text-blue-500">Github</span>
             </div>
           </a>
         </div>
-        <h4 className="text-xs text-center sm:text-left sm:text-sm md:text-base ">✉ florenciasoto801@gmail.com</h4>
+        <a href="mailto:florenciasoto801@gmail.com" 
+          className="text-xs text-center sm:text-left sm:text-sm md:text-base 
+            transition duration-300 hover:underline hover:text-blue-500"
+        >
+          ✉ florenciasoto801@gmail.com
+        </a>
       </div>
     </div>
   );
