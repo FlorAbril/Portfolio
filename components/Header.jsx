@@ -3,10 +3,11 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="
-        h-128 mb-16 mt-16
+        h-screen mb-16 pt-[10vh] md:pt-[15vh] 
         flex flex-wrap justify-center content-start
-        sm:justify-evenly sm:items-center
+        sm:justify-center sm:items-center gap-x-16
         bg-layered-waves
+        bg-bottom bg-repeat-x
     ">
       <div className="flex-none w-1/2 sm:w-1/4 xl:w-1/5 max-w-xs">
           <Image

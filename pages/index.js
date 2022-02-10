@@ -7,7 +7,7 @@ import Projects from "../components/Projects";
 
 export default function Home() {
   return (
-    <div className="mb-16">
+    <div className="pb-20 bg-layered-waves bg-bottom bg-repeat-x">
       <Navbar />
       <Header />
       <Projects />
