@@ -1,0 +1,18 @@
+{
+  "About" :
+    {
+      "title" : "About",
+      "text" : "I'm Florencia, I'm a Trainee Frontend Developer from Buenos Aires, Argentina. I'm currently looking for my first job experience where I can apply what I learned, face new challenges and give my best to grow as a developer and person. If you want to contact me, please send me an email, or a message on my social networks. Thanks for visiting!",
+      "hard-skills" : {
+        "title" : "Hard Skills"
+      },
+      "soft-skills" : {
+        "title" : "Soft Skills",
+        "list" : [
+          "Commitment",
+          "Teamwork",
+          "Growth mindset"
+        ]
+      }
+    }
+}
