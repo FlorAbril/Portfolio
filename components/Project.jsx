@@ -1,18 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 const Project = ({title,description,links,technologies}) => {
   return (
-    <div className="
+    <motion.div className="
       flex flex-col gap-3
       w-full
       p-4 max-w-lg transition ease-in-out duration-700 
       rounded-md border-2 border-blue-500/50 
       hover:bg-dark-blue/75"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
     > 
-      <h1 className="text-lg font-medium">
+      <motion.h1 className="text-lg font-medium"
+         initial={{ opacity: 0 }}
+         whileInView={{ opacity: 1 }}
+         viewport={{ once: true }}
+      >
         {title}
-      </h1>
+      </motion.h1>
       <p>
         {description}
       </p>
@@ -62,7 +70,7 @@ const Project = ({title,description,links,technologies}) => {
           </Link>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
