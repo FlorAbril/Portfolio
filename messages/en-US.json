@@ -1,18 +1,43 @@
 {
+  "Header": 
+  {
+    "title": "Hi, I'm Florencia",
+    "subtitle": "Frontend Developer based in Buenos Aires, AR."
+  },
+  "Navbar":
+  {
+    "projects": "Projects",
+    "about": "About"
+  },
   "About" :
-    {
-      "title" : "About",
-      "text" : "I'm Florencia, I'm a Trainee Frontend Developer from Buenos Aires, Argentina. I'm currently looking for my first job experience where I can apply what I learned, face new challenges and give my best to grow as a developer and person. If you want to contact me, please send me an email, or a message on my social networks. Thanks for visiting!",
-      "hard-skills" : {
-        "title" : "Hard Skills"
-      },
-      "soft-skills" : {
-        "title" : "Soft Skills",
-        "list" : [
-          "Commitment",
-          "Teamwork",
-          "Growth mindset"
-        ]
+  {
+    "title" : "About",
+    "text" : "My name is Florencia Soto, I'm a Trainee Frontend Developer from Buenos Aires, Argentina. I'm currently looking for my first job experience where I can apply what I learned, face new challenges and give my best to grow as a developer and person. If you want to work with me or know me better, please send me an email, or a message on LinkedIn. Thanks for visiting!",
+    "hard-skills" : {
+      "title" : "Hard Skills",
+      "list" : {
+        "html": "HTML5",
+        "css": "CSS3",
+        "js": "JavaScript",
+        "react": "React JS",
+        "git": "Git",
+        "github": "GitHub"
+      }
+    },
+    "soft-skills" : {
+      "title" : "Soft Skills",
+      "list" : {
+        "commitment" :  "Commitment",
+        "teamwork" : "Teamwork",
+        "growth-mindset" : "Growth mindset"
       }
     }
+  },
+  "Projects" : {
+    "title" : "Projects",
+    "card" : {
+      "website": "Website",
+      "repository": "Repository"
+    }
+  }
 }

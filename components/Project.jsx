@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import {motion} from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const Project = ({title,description,links,technologies}) => {
+  const t = useTranslations("Projects.card");
   return (
     <motion.div className="
       flex flex-col gap-3
@@ -46,7 +48,7 @@ const Project = ({title,description,links,technologies}) => {
                 />
               </div>
               <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">
-                Repository
+                {t("repository")}
               </span>
             </a>
           </Link>
@@ -64,7 +66,7 @@ const Project = ({title,description,links,technologies}) => {
                 />
               </div>
               <span className="transition  ease-in-out delay-150 border-b border-solid border-transparent hover:border-b-white">
-                Website
+                {t("website")}
               </span>
             </a>
           </Link>

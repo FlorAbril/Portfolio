@@ -1,6 +1,8 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const Header = () => {
+  const t = useTranslations('Header');
   return (
     <div className="
         h-screen mb-16 pt-[10vh] md:pt-[15vh] 
@@ -22,10 +24,10 @@ const Header = () => {
       </div>
       <div className="p-4 h-fit">
         <h1 className="text-xl text-center sm:text-3xl md:text-4xl sm:text-left">
-          Hi, I&apos;m Florencia Soto
+          {t("title")}
         </h1>
         <h2 className="text-sm text-center sm:text-base md:text-lg">
-          Frontend Developer based in Buenos Aires, AR.
+          {t("subtitle")}
         </h2>
         <div className="flex justify-center gap-3 pt-3 sm:justify-start items-center text-sm sm:text-base md:text-lg">
           <a href="https://www.linkedin.com/in/florabrilsoto">
@@ -39,7 +41,9 @@ const Header = () => {
                     alt="linkedin"
                 />
               </div>
-              <span className="transition duration-300 hover:underline hover:text-blue-500">LinkedIn</span>
+              <span className="transition duration-300 hover:underline hover:text-blue-500">
+                LinkedIn
+              </span>
             </div>
           </a>
           <a href="https://github.com/FlorAbril">
@@ -53,7 +57,9 @@ const Header = () => {
                   alt="github"
                 />
               </div>
-              <span className="transition duration-300 hover:underline hover:text-blue-500">Github</span>
+              <span className="transition duration-300 hover:underline hover:text-blue-500">
+                Github
+              </span>
             </div>
           </a>
         </div>

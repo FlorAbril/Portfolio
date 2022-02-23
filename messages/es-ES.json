@@ -2,16 +2,42 @@
   "About" :
     {
       "title" : "Sobre mi",
-      "text" : "Hola! Soy Flor, Desarrolladora Frontend Trainee/Jr y vivo en Buenos Aires, Argentina. Actualmente estoy en búsqueda de mi primera experiencia laboral donde pueda: aplicar lo que aprendí, enfrentar nuevos retos, y dar lo mejor de mi para crecer como profesional y como persona. Si te interesa trabajar conmigo o saber más de mi, podés enviarme un mail o un mensaje en LinkedIn. Muchas gracias por visitar mi sitio web!",
+      "text" : "Mi nombre es Florencia Soto, soy Desarrolladora Frontend Trainee/Jr y vivo en Buenos Aires, Argentina. Actualmente estoy en búsqueda de mi primera experiencia laboral donde pueda: aplicar lo que aprendí, enfrentar nuevos retos, y dar lo mejor de mi para crecer como profesional y como persona. Si te interesa trabajar conmigo o saber más de mi, podés enviarme un mail o un mensaje en LinkedIn. Muchas gracias por visitar!",
       "hard-skills" : {
-        "title" : "Lenguajes y herramientas"
+        "title" : "Lenguajes y tecnologías",
+        "list" : {
+          "html": "HTML5",
+          "css": "CSS3",
+          "js": "JavaScript",
+          "react": "React JS",
+          "git": "Git",
+          "github": "GitHub"
+        }
       },
       "soft-skills" : {
         "title" : "Habilidades blandas",
-        "list" : [
-          "Compromiso",
-          "Trabajo en equipo"
-        ]
+        "list" : {
+          "commitment" :  "Compromiso",
+          "teamwork" : "Trabajo en equipo",
+          "growth-mindset" : "Mentalidad de crecimiento"
+        }
+      }
+    },
+    "Header": 
+    {
+      "title": "Hola! Soy Florencia",
+      "subtitle": "Desarrolladora Frontend de Buenos Aires, Argentina" 
+    },
+    "Navbar":
+    {
+      "projects": "Proyectos",
+      "about": "Sobre mi"
+    },
+    "Projects" : {
+      "title" : "Proyectos",
+      "card" : {
+        "website": "Sitio web",
+        "repository": "Repositorio"
       }
     }
 }

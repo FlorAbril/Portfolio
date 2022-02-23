@@ -1,9 +1,11 @@
 import axios from "axios"
+import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
 import Project from "./Project"
 
 const Projects = () => {
 	const [projects, setProjects] = useState([])
+	const t = useTranslations("Projects")
 	const getProjects = async () => {
 		const response = await axios.get("/api/projects")
 		return response.data
@@ -15,7 +17,9 @@ const Projects = () => {
 	
 	return (
 		<div className="flex flex-col items-center gap-3 ml-2 mr-2">
-			<h1 className="text-lg text-center mb-4 md:text-3xl" id="projects">Projects</h1>
+			<h1 className="text-lg text-center mb-4 md:text-3xl" id="projects">
+				{t("title")}
+			</h1>
 			{projects.map(({id,properties:{Name,WebSite,Github,Description,Technologies}}) => (
 				<Project
 					key={id}
