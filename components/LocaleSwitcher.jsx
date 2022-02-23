@@ -18,18 +18,20 @@ const LocaleSwitcher = () => {
         const { pathname, query, asPath } = router
         return (
           <Link href={{ pathname, query }} as={asPath} locale={locale}
-            className='cursor-pointer' key={locale}
+            className='cursor-pointer' key={locale} scroll={false}
           >
-            <Image
-              src={`/${langImg[locale]}`}
-              width={20}
-              height={20}
-              alt={locale}
-              className={`${locale !== activeLocale ? 'brightness-50' : ''}
-               cursor-pointer hover:brightness-100`
-              }
+            <a>
+              <Image
+                src={`/${langImg[locale]}`}
+                width={20}
+                height={20}
+                alt={locale}
+                className={`${locale !== activeLocale && 'brightness-50'}
+                cursor-pointer hover:brightness-100`
+                }
 
-            />
+              />
+            </a>
           </Link>
         )
       })}

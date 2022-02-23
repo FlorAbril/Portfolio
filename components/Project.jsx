@@ -37,7 +37,7 @@ const Project = ({title,description,links,technologies}) => {
       <div className="flex gap-2">
         {links.github && (
           <Link href={links.github}>
-            <a className="flex gap-1 items-center">
+            <a className="flex gap-1 items-center" target={'_blank'}  rel="noopener noreferrer">
               <div className="w-4">
                 <Image
                   src="/github.svg"
@@ -55,7 +55,7 @@ const Project = ({title,description,links,technologies}) => {
         )}
         {links.website && (
           <Link href={links.website}>
-          <a className="flex gap-1 items-center">
+            <a className="flex gap-1 items-center" target={'_blank'}  rel="noopener noreferrer">
               <div className="w-4">
                 <Image
                   src="/globe.svg"

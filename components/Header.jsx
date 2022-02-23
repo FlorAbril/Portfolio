@@ -30,7 +30,7 @@ const Header = () => {
           {t("subtitle")}
         </h2>
         <div className="flex justify-center gap-3 pt-3 sm:justify-start items-center text-sm sm:text-base md:text-lg">
-          <a href="https://www.linkedin.com/in/florabrilsoto">
+          <a href="https://www.linkedin.com/in/florabrilsoto"  target={'_blank'}  rel="noopener noreferrer">
             <div className="flex items-center gap-1 cursor-pointer">
               <div className="w-4 md:w-6">
                 <Image
@@ -46,7 +46,7 @@ const Header = () => {
               </span>
             </div>
           </a>
-          <a href="https://github.com/FlorAbril">
+          <a href="https://github.com/FlorAbril"  target={'_blank'}  rel="noopener noreferrer">
             <div className="flex items-center gap-1 cursor-pointer">
               <div className="w-4 md:w-6">
                 <Image
