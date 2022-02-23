@@ -14,6 +14,7 @@ const About = () => {
     "soft-skills.list.commitment",
     "soft-skills.list.teamwork",
     "soft-skills.list.growth-mindset",
+    "soft-skills.list.attention-to-detail",
   ]
 
   return(
@@ -31,9 +32,9 @@ const About = () => {
            ✉ florenciasoto801@gmail.com
         </a>
       </p>
-      <div className="flex w-fit m-auto pt-2 gap-x-8 gap-y-4
-        flex-wrap py-4 px-6
-         backdrop-blur-xs bg-black/70  rounded-md"
+      <div className="flex flex-wrap gap-x-8 gap-y-4
+        w-fit m-auto pt-2 py-4 px-6
+        backdrop-blur-xs bg-black/70 rounded-md"
       >
         <div>
           <h2 className="font-medium">{t('hard-skills.title')}</h2>

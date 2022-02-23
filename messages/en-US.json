@@ -29,7 +29,8 @@
       "list" : {
         "commitment" :  "Commitment",
         "teamwork" : "Teamwork",
-        "growth-mindset" : "Growth mindset"
+        "growth-mindset" : "Growth mindset",
+        "attention-to-detail" : "Attention to detail"
       }
     }
   },
