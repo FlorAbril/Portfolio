@@ -20,7 +20,7 @@ const LocaleSwitcher = () => {
           <Link href={{ pathname, query }} as={asPath} locale={locale}
             className='cursor-pointer' key={locale} scroll={false}
           >
-            <a>
+            <a className='flex'>
               <Image
                 src={`/${langImg[locale]}`}
                 width={20}

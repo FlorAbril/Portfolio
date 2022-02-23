@@ -4,21 +4,26 @@ import LocaleSwitcher from "./LocaleSwitcher";
 
 const Navbar = () => {
   const t = useTranslations("Navbar");
-  
+  const navLinks = [
+    "projects",
+    "about",
+  ]
+
+
   return (
     <div className={"p-4 sticky top-0 w-full backdrop-blur-xs bg-black/50 z-10"}>
-      <div className="flex justify-end gap-4">
+      <div className="flex justify-between">
         <LocaleSwitcher/>
-        <Link href="#projects">
-					<a className="transition-colors hover:text-blue-500">
-            {t("projects")}
-          </a>
-				</Link>
-        <Link href="#about">
-          <a className="transition-colors hover:text-blue-500">
-            {t("about")}
-          </a>
-        </Link>
+        <div>
+          {navLinks.map(link => (
+            <Link href={`#${link}`} key={link}>
+              <a className="transition-colors hover:text-blue-500 mr-2 last:mr-0">
+                {t(link)}
+              </a>
+            </Link>
+
+          ))}
+        </div>
       </div>
     </div>
   );
