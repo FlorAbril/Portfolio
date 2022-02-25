@@ -2,9 +2,25 @@ import Image from "next/image";
 import Link from "next/link";
 import {motion} from "framer-motion";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/router";
 
-const Project = ({title,description,links,technologies}) => {
+const Project = ({properties}) => {
   const t = useTranslations("Projects.card");
+  const { locale } = useRouter()
+	const descriptionLang = {
+		"en-US": "Description_en",
+		"es-ES": "Description_es"
+	}
+  const {Name,WebSite,Github,Technologies} = properties
+  const title = Name?.title[0]?.["plain_text"]
+  const description = properties[descriptionLang[locale]]?.["rich_text"][0]?.["plain_text"]
+  const links = {
+    github: Github?.url,
+    website: WebSite?.url
+  }
+  const technologies = Technologies?.["multi_select"]
+
+
   return (
     <motion.div className="
       flex flex-col gap-3
