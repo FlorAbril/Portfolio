@@ -1,44 +1,42 @@
 {
-  "About" :
-    {
-      "title" : "Sobre mi",
-      "text" : "Mi nombre es Florencia Soto, soy Desarrolladora Frontend Trainee/Jr y vivo en Buenos Aires, Argentina. Actualmente estoy en búsqueda de mi primera experiencia laboral donde pueda: aplicar lo que aprendí, enfrentar nuevos retos, y dar lo mejor de mi para crecer como profesional y como persona. Si te interesa trabajar conmigo o saber más de mi, podés enviarme un mail o un mensaje en LinkedIn. Muchas gracias por visitar!",
-      "hard-skills" : {
-        "title" : "Lenguajes y tecnologías",
-        "list" : {
-          "html": "HTML5",
-          "css": "CSS3",
-          "js": "JavaScript",
-          "react": "React JS",
-          "git": "Git",
-          "github": "GitHub"
-        }
-      },
-      "soft-skills" : {
-        "title" : "Habilidades blandas",
-        "list" : {
-          "commitment" :  "Compromiso",
-          "teamwork" : "Trabajo en equipo",
-          "growth-mindset" : "Mentalidad de crecimiento",
-          "attention-to-detail" : "Atención al detalle"
-        }
+  "About": {
+    "title": "Sobre mí",
+    "text": "Mi nombre es Florencia Soto, soy Desarrolladora Frontend y vivo en Buenos Aires, Argentina. Me interesa estar en constante aprendizaje, enfrentar nuevos retos y dar lo mejor de mi para crecer como profesional y como persona. No dudes en enviarme un mail o un mensaje en LinkedIn. Muchas gracias por visitar!",
+    "hard-skills": {
+      "title": "Lenguajes y tecnologías",
+      "list": {
+        "html": "HTML5",
+        "css": "CSS3",
+        "js": "JavaScript",
+        "ts": "TypeScript",
+        "react": "React JS",
+        "git": "Git",
+        "github": "GitHub"
       }
     },
-    "Header": 
-    {
-      "title": "Hola! Soy Florencia",
-      "subtitle": "Desarrolladora Frontend de Buenos Aires, Argentina" 
-    },
-    "Navbar":
-    {
-      "projects": "Proyectos",
-      "about": "Sobre mi"
-    },
-    "Projects" : {
-      "title" : "Proyectos",
-      "card" : {
-        "website": "Sitio web",
-        "repository": "Repositorio"
+    "soft-skills": {
+      "title": "Habilidades blandas",
+      "list": {
+        "autonomy": "Autonomía",
+        "attention-to-detail": "Atención al detalle",
+        "teamwork": "Trabajo en equipo",
+        "growth-mindset": "Mentalidad de crecimiento"
       }
     }
+  },
+  "Header": {
+    "title": "Hola! Soy Florencia",
+    "subtitle": "Desarrolladora Frontend de Buenos Aires, Argentina"
+  },
+  "Navbar": {
+    "projects": "Proyectos",
+    "about": "Sobre mi"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "card": {
+      "website": "Sitio web",
+      "repository": "Repositorio"
+    }
+  }
 }

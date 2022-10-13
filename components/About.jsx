@@ -6,15 +6,16 @@ const About = () => {
     "hard-skills.list.html",
     "hard-skills.list.css",
     "hard-skills.list.js",
+    "hard-skills.list.ts",
     "hard-skills.list.react",
     "hard-skills.list.git",
     "hard-skills.list.github",
   ]
   const softSkills = [
-    "soft-skills.list.commitment",
+    "soft-skills.list.autonomy",
+    "soft-skills.list.attention-to-detail",
     "soft-skills.list.teamwork",
     "soft-skills.list.growth-mindset",
-    "soft-skills.list.attention-to-detail",
   ]
 
   return(
